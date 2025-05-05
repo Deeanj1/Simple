@@ -301,4 +301,7 @@ body{
         font-size: 15px;
         font-weight: 400;
     }
+@media screen and (max-width: 768px) {
+    flex-direction: column;
 }
+    
