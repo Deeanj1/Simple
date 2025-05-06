@@ -302,6 +302,71 @@ body{
         font-weight: 400;
     }
 @media screen and (max-width: 768px) {
-    flex-direction: column;
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftcurve, .rect {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 50px;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .text {
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .top, .middle, .bottom {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pics {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .msecond, .mthird, .bfirst, .bsecond, .bfourth {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .bsecond h1 {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .bsecond p {
+        font-size: 10px;
+    }
+
+    .bsecond .circle {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .bfourth p {
+        margin-left: 10px;
+    }
 }
-    
